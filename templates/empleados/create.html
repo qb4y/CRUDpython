@@ -1,0 +1,20 @@
+{% include 'header.html' %}
+<form method="post" action="/store" enctype="multipart/form-data">
+    
+    Nombre:
+    <input type="text" name="txtNombre" id="txtNombre">
+    <br>
+
+    Correo:
+    <input type="text" name="txtCorreo" id="txtCorreo">
+    <br>
+
+    Foto:
+    <input type="file" name="txtFoto" id="txtFoto">
+    <br>
+    <br>
+    <input type="submit" value="Agregar">
+
+
+</form>
+{% include 'footer.html' %}
